@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stop.css">
+    <title>Enhanced Stopwatch</title>
+</head>
+<body>
+    <div class="box">
+        <h2 class="heading">Stopwatch</h2>
+        <h1 id="stopwatch">00 : 00 : 00</h1>
+        <div class="buttons">
+            <button onclick="start()" style="background-color: green;">Start</button>
+            <button onclick="stop()" style="background-color: red;">Stop</button>
+            <button onclick="reset()" style="background-color: yellow; color: black;">Reset</button>
+            <button onclick="lap()" style="background-color: blueviolet;">Lap</button>
+        </div>
+        <div class="laps">
+            <h3>Lap Times:</h3>
+            <ul id="lapTimes"></ul>
+        </div>
+    </div>
+    <script src="stop.js"></script>
+</body>
+</html>

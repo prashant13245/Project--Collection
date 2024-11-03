@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body onload="getData()">
+    
+<div class="box">
+    <input type="text" onchange="getData()" id="search" value="ranchi" class="search">
+    <div>
+        <h1 id="temp">14<sup>o</sup></h1>
+        <p style="text-align: center; font-size: 20px; color: white;">Celsius</p>
+        <p class="data">Wind Speed :- <span id="ws">20</span> km/h</p>
+        <p class="data">Humidity :- <span id="hmdty">20</span> %</p>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <img width="400px" src="weather.png" alt="Weather Image">
+    </div>
+</div>
+
+<script src="weather.js"></script>
+</body>
+</html>

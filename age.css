@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, rgb(100, 217, 225), rgb(14, 232, 17));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 6px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+}
+
+input[type="date"], input[type="button"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #007BFF;
+    font-size: 16px;
+}
+
+input[type="button"] {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #70f3c4;
+}
+
+label {
+    color: rgb(0, 147, 210);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1 {
+    color: pink;
+    font-size: 36px;
+}
