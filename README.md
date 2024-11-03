@@ -1,5 +1,5 @@
 # Project--Collection
-Stopwatch/ Calculator/ (Weather)API-Project
+Stopwatch/ Calculator/ (Weather)API-Project/Age-Calculator
 
 1.Stopwatch Project
 # Stopwatch
@@ -71,4 +71,27 @@ A weather app that fetches real-time weather data using an API. Enter a city nam
 3. View the current weather details for your selected city.
 
 Stay updated on the weather!
+
+4.Age-Calculator
+# Age Calculator
+
+An interactive age calculator that allows users to calculate their age in years, months, and days based on their date of birth.
+
+## Features
+- Calculates age in years, months, and days
+- Simple and clean user interface
+- Error handling for invalid dates
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## How to Use
+1. Open `index.html` in your browser.
+2. Enter your date of birth in the input field.
+3. Click **Calculate** to see your exact age.
+
+Easily find out how many years, months, and days you've lived!
+
 
